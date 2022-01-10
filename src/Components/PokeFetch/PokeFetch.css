@@ -24,11 +24,11 @@
 
 .pokeWrap{
   align-self: flex-start;
-  margin-top: -100px;
+  margin-top: 0px;
   margin-left: 18vw;
 }
 
-.pokeImg {
+#image {
   width: 500px;
 }
 
@@ -38,3 +38,12 @@
   margin-top: -50px;
 }
 
+.dark {
+  filter: brightness(0%);
+}
+.hidden {
+  visibility:hidden
+}
+.visible {
+  visibility: visible;
+}
